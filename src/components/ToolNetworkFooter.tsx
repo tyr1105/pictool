@@ -9,6 +9,7 @@ export default function ToolNetworkFooter() {
     { name: "ShotPro截图", href: "https://tyr1105.github.io/shotpro/" },
     { name: "WriteBoom文案", href: "https://tyr1105.github.io/writeboom/" },
     { name: "PDFKit工具", href: "https://tyr1105.github.io/pdfkit/" },
+    { name: "QuickBill发票", href: "https://tyr1105.github.io/quickbill/" },
   ];
 
   return (
