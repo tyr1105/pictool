@@ -1,36 +1,45 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🖼️ PicTool - 免费在线图片工具箱
 
-## Getting Started
+> 无需上传服务器，所有处理在浏览器本地完成，保护您的隐私。
 
-First, run the development server:
+🌐 **在线使用**: [https://tyr1105.github.io/pictool/](https://tyr1105.github.io/pictool/)
+
+## ✨ 功能列表
+
+| 工具 | 说明 |
+|------|------|
+| 🗜️ 图片压缩 | 智能压缩图片，大幅减小文件体积，保持画质清晰，支持批量处理 |
+| 🔄 格式转换 | PNG、JPG、WebP 等常见图片格式互相转换，一键批量处理 |
+| 📐 图片缩放 | 快速调整图片尺寸，支持自定义宽高、百分比缩放和常用预设尺寸 |
+| ✂️ 图片裁剪 | 可视化裁剪图片，支持自由裁剪和多种预设比例（1:1、4:3、16:9等） |
+| 💧 水印添加 | 为图片添加自定义文字或图片水印，支持位置、透明度、旋转等设置 |
+| 🔤 Base64 转换 | 图片与 Base64 编码互转，方便嵌入代码或传输 |
+
+## 🔒 隐私保护
+
+所有图片处理均在浏览器本地完成，**图片不会上传到任何服务器**。您的文件始终留在您的设备上。
+
+## 🛠️ 技术栈
+
+- **框架**: Next.js
+- **部署**: GitHub Pages
+- **图片处理**: 浏览器端 Canvas API、File API
+- **样式**: Tailwind CSS
+
+## 🚀 本地开发
 
 ```bash
+# 克隆仓库
+git clone https://github.com/tyr1105/pictool.git
+cd pictool
+
+# 安装依赖
+npm install
+
+# 启动开发服务器
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 📄 License
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+MIT
