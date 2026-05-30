@@ -4,6 +4,7 @@ import Sidebar from "@/components/Sidebar";
 import Footer from "@/components/Footer";
 import ThemeProvider from "@/components/ThemeProvider";
 import ThemeToggle from "@/components/ThemeToggle";
+import ToolNetworkFooter from "@/components/ToolNetworkFooter";
 
 export const metadata: Metadata = {
   title: {
@@ -92,6 +93,7 @@ export default function RootLayout({
               </main>
 
               <Footer />
+              <ToolNetworkFooter />
             </div>
           </div>
         </ThemeProvider>
